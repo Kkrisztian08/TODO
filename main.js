@@ -1,6 +1,5 @@
 function athuz(e){
     e.target.classList.toggle("kiemelt");
-    /*szoveg.style.textDecorationLine = "line-through";*/
 }
 function listaGomb() {
 
