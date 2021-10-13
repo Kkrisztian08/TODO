@@ -15,6 +15,7 @@ function listaGomb() {
         document.getElementById("szoveg").value="";
         let ujListaElem= document.createElement("li");
         ujListaElem.setAttribute("class", "elem")
+        ujListaElem.setAttribute("class", "list-group-item")
         //checkbox
         let kipipalo= document.createElement("input");
         kipipalo.type="checkbox";
@@ -33,14 +34,9 @@ function listaGomb() {
         ujListaElem.appendChild(x);
         x.setAttribute("class", "x")
 
-
         document.getElementById("lista").appendChild(ujListaElem);
-    }
-    
-    
+    }    
 }
-
-
 
 function init(){
     document.getElementById("listaGomb").addEventListener("click", listaGomb);
