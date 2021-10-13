@@ -1,3 +1,17 @@
-.kiemelt {
+.igazitas{
+    text-align: center;
+}
+.athuzas {
     text-decoration: line-through;
 }
+.elem{
+    border-bottom: solid black 1.5px;
+    padding: 10px;
+}
+.x{
+    float: right;
+}
+.kipipalo{
+    float: left;
+}
+
